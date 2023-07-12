@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+ul {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.page {
+    max-width: 1440px;
+    max-height: 13698px;
+    margin: 0 auto;
+    background: var(--efefef, #EFEFEF);
+}
+
+/* input, textarea {
+    min-width: 170px;
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+} */
+
